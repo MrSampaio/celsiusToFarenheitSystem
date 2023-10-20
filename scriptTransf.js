@@ -1,4 +1,3 @@
-
 function calculateCelsiusToFarenheit(val){
     val = val * 9/5 + 32
     return val
