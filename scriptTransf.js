@@ -24,7 +24,6 @@ function calculateDegree(degree){
     }
     if(farenheit){
         let newFarenheit = Number(degree.toUpperCase().replace("F", ""))
-
         console.log("A temperatura em graus Celsius é de: " + calculateFarenheitToCelsius(newFarenheit) + "°C")
     }
 }
